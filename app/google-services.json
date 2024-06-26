@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "667938169366",
+    "project_id": "epasaj-596db",
+    "storage_bucket": "epasaj-596db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:667938169366:android:05599f28a53a1d2525cb37",
+        "android_client_info": {
+          "package_name": "com.muratdayan.epasaj"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAV77h3DTjUGCsBrVj_f6SBi4vQgL-Ll0c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

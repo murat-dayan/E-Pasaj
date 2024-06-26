@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorlayoutproductfeaturesbottomsheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/txtTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding_medium_8"
+                android:text="@string/title"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/md_theme_primary"
+                android:textSize="@dimen/text_size_h2_22"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txtDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/description"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/md_theme_onSurfaceVariant_mediumContrast"
+                android:textSize="@dimen/text_size_h4_18"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txtCategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/category"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/md_theme_onTertiaryFixedVariant"
+                android:textSize="@dimen/text_size_h4_18"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txtPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/price"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/md_theme_onTertiaryFixedVariant"
+                android:textSize="@dimen/text_size_h4_18"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txtDiscountPercentage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/discount_percentage"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/md_theme_onTertiaryFixedVariant"
+                android:textSize="@dimen/text_size_h4_18"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txtRating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rating"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/md_theme_onTertiaryFixedVariant"
+                android:textSize="@dimen/text_size_h4_18"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txtStock"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/stock"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/md_theme_onTertiaryFixedVariant"
+                android:textSize="@dimen/text_size_h4_18"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txtTags"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tags"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/md_theme_onTertiaryFixedVariant"
+                android:textSize="@dimen/text_size_h4_18"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txtBrand"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/brand"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/md_theme_onTertiaryFixedVariant"
+                android:textSize="@dimen/text_size_h4_18"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txtSku"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sku"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/md_theme_onTertiaryFixedVariant"
+                android:textSize="@dimen/text_size_h4_18"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txtWeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/weight"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/md_theme_onTertiaryFixedVariant"
+                android:textSize="@dimen/text_size_h4_18"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txtDimensions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dimensions"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/md_theme_onTertiaryFixedVariant"
+                android:textSize="@dimen/text_size_h4_18"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txtWarrantyInformation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/warranty_information"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/md_theme_onTertiaryFixedVariant"
+                android:textSize="@dimen/text_size_h4_18"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txtShippingInformation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/shipping_information"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/md_theme_onTertiaryFixedVariant"
+                android:textSize="@dimen/text_size_h4_18"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txtAvailabilityStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/availability_status"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/md_theme_onTertiaryFixedVariant"
+                android:textSize="@dimen/text_size_h4_18"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txtReturnPolicy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/return_policy"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/md_theme_onTertiaryFixedVariant"
+                android:textSize="@dimen/text_size_h4_18"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txtMinimumOrderQuantity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/minimum_order_quantity"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/md_theme_onTertiaryFixedVariant"
+                android:textSize="@dimen/text_size_h4_18"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/imgViewQrCode"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.google.android.material.bottomsheet.BottomSheetDragHandleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

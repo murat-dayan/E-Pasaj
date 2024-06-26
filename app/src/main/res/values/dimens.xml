@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Text sizes -->
+    <dimen name="text_size_small_12">12sp</dimen>
+    <dimen name="text_size_medium_16">16sp</dimen>
+    <dimen name="text_size_large_20">20sp</dimen>
+    <dimen name="text_size_h1_24">24sp</dimen>
+    <dimen name="text_size_h2_22">22sp</dimen>
+    <dimen name="text_size_h3_20">20sp</dimen>
+    <dimen name="text_size_h4_18">18sp</dimen>
+    <dimen name="text_size_h5_16">16sp</dimen>
+    <dimen name="text_size_h6_14">14sp</dimen>
+
+    <!-- Padding sizes -->
+    <dimen name="padding_small_4">4dp</dimen>
+    <dimen name="padding_medium_8">8dp</dimen>
+    <dimen name="padding_large_16">16dp</dimen>
+    <dimen name="padding_llarge_20">20dp</dimen>
+    <dimen name="padding_large_24">24dp</dimen>
+    <dimen name="padding_xlarge_32">32dp</dimen>
+    <dimen name="padding_xxlarge_64">64dp</dimen>
+
+    <!-- Margin sizes -->
+    <dimen name="margin_small_4">4dp</dimen>
+    <dimen name="margin_medium_8">8dp</dimen>
+    <dimen name="margin_large_16">16dp</dimen>
+    <dimen name="margin_xlarge_32">32dp</dimen>
+    <dimen name="margin_xxlarge_64">64dp</dimen>
+    
+    <!-- Border sizes -->
+    <dimen name="border_small_1">1dp</dimen>
+    <dimen name="border_medium_2">2dp</dimen>
+    <dimen name="border_large_4">4dp</dimen>
+    
+    <!-- Rounded Corner sizes -->
+    <dimen name="rounded_corner_small_4">4dp</dimen>
+    <dimen name="rounded_corner_medium_8">8dp</dimen>
+    <dimen name="rounded_corner_large_16">16dp</dimen>
+    <dimen name="rounded_corner_large_24">24dp</dimen>
+    <dimen name="rounded_corner_xlarge_32">32dp</dimen>
+    <dimen name="rounded_corner_xxlarge_64">64dp</dimen>
+    
+    <!-- Spacer Sizes -->
+    <dimen name="spacer_small_10">10dp</dimen>
+    <dimen name="spacer_medium_20">20dp</dimen>
+    <dimen name="spacer_large_30">30dp</dimen>
+    <dimen name="spacer_xlarge_40">40dp</dimen>
+    <dimen name="spacer_xxlarge_50">50dp</dimen>
+    <dimen name="spacer_xxxlarge_70">70dp</dimen>"
+    
+
+
+
+
+</resources>
